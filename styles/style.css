@@ -1,0 +1,163 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/64/51/dd/6451ddd138554e83483a505798b2e457.jpg");
+    background-repeat: none;
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Rose', serif;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background: black;
+    color: white;
+    border: 1px white solid;
+    max-width: 850px;
+}
+
+section {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #00b4d8;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ade8f4;
+}
+
+.intro {
+    text-align: center;
+    padding: 30px;
+}
+
+.sections {
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#quiz-result {
+    margin: 150px;
+    font-size: 2rem;
+}
+
+button {
+    font-size: 20px;
+    color: #023e8a;
+    border: 2px solid #0077b6;
+    font-family: 'Red Rose', serif;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+/* 
+body {
+    --header-height: 80px;
+    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 25px;
+    
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--color2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(var(--footer-height));
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--color3);
+    height: var(--header-height);
+    box-shadow: var(--shadow);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--color3);
+    box-shadow: var(--shadow);
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.gutter-right {
+    margin-right: 20px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header img {
+    height: var(--header-height);
+}
+
+
+
+content {
+    width: 80%;
+}
+
+p {
+    margin: var(--gutter);
+}
+  
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: var(--footer-height);
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--color3);
+    box-shadow: var(--shadow);
+} */
